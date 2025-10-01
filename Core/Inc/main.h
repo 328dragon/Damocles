@@ -57,7 +57,11 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define none_1_Pin GPIO_PIN_13
+#define none_3_Pin GPIO_PIN_13
+#define none_3_GPIO_Port GPIOC
+#define none_2_Pin GPIO_PIN_14
+#define none_2_GPIO_Port GPIOC
+#define none_1_Pin GPIO_PIN_15
 #define none_1_GPIO_Port GPIOC
 #define ccdnss_Pin GPIO_PIN_4
 #define ccdnss_GPIO_Port GPIOA
@@ -77,12 +81,12 @@ void Error_Handler(void);
 #define motor_dir2_GPIO_Port GPIOA
 #define motor_dir1_Pin GPIO_PIN_15
 #define motor_dir1_GPIO_Port GPIOA
-#define none_4_Pin GPIO_PIN_2
-#define none_4_GPIO_Port GPIOD
-#define none_3_Pin GPIO_PIN_3
-#define none_3_GPIO_Port GPIOB
-#define none_2_Pin GPIO_PIN_9
-#define none_2_GPIO_Port GPIOB
+#define none_6_Pin GPIO_PIN_2
+#define none_6_GPIO_Port GPIOD
+#define none_5_Pin GPIO_PIN_3
+#define none_5_GPIO_Port GPIOB
+#define none_4_Pin GPIO_PIN_9
+#define none_4_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
